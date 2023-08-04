@@ -19,11 +19,13 @@ const Members = () => {
     boardMembers.find((boardMember) => boardMember.user === user._id) ? false : true
   );
   const dispatch = useDispatch();
-
+  
+  const API_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:5000' : process.env.REACT_APP_API_URL;
   const handleInputValue = async (newInputValue) => {
     setInputValue(newInputValue);
     if (newInputValue && newInputValue !== '') {
-      const search = (await axios.get(`/api/users/${newInputValue}`)).data.slice(0, 5);
+      // const search = (await axios.get(`/api/users/${newInputValue}`)).data.slice(0, 5);
+      const search = (await axios.get(`${API_URL}/api/users/${newInputValue}`)).data.slice(0, 5);
       setUsers(search && search.length > 0 ? search : []);
     }
   };
