@@ -132,7 +132,7 @@ const Register = () => {
         </form>
       </div>
       <Box mt={5}>
-        <Copyright />
+        {/* <Copyright /> */}
       </Box>
     </Container>
   );
