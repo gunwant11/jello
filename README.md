@@ -1,6 +1,6 @@
 # Jello
-<br/>
-# Task Management application for your teams
+
+Task Management application for your teams
 
 ## About
 
