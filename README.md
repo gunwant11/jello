@@ -4,28 +4,34 @@ Task Management application for your teams
 
 ## About
 
-A more detailed introduction to your project. Explain what it does, why it's useful, and any other relevant information. You can also include a screenshot or logo here.
+Jello is a task management application that allows you to create and manage tasks on a board. You can create multiple boards and invite your team members to collaborate on them. You can also assign tasks to your team members and track their progress. 
 
-## Features
+- [Live Demo](jello-murex.vercel.app)
+
+## Key Features
 
 List the key features of your project.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Authentication an login with JWT tokens 
+- Create and manage boards, lists and tasks
+- Assign tasks to team members, track their progress , set due dates and add comments
+- Invite team members to collaborate on boards
+- Archive boards and tasks
 
-## Getting Started
+## App Demo
 
-Provide instructions on how to get your project up and running.
+images here
+  
 
-### Prerequisites
 
-List any software, libraries, or dependencies that users need to have installed before they can use your project.
+## Tech Stack
 
-### Installation
-
-Step-by-step instructions on how to install your project.
-
-1. Clone this repository.
-   ```sh
-   git clone https://github.com/yourusername/yourproject.git
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [JWT](https://jwt.io/)
+- [Material UI](https://material-ui.com/)
+- [React Beautiful DND] 
